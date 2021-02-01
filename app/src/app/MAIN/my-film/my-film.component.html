@@ -1,0 +1,17 @@
+<div *ngIf="filmInput" class="main">
+    <h1>
+        {{filmInput.id + 1}} фильм
+    </h1>
+    <div>
+        <p>Название: </p> {{filmInput.name}}
+    </div>
+    <div>
+        <p>Режиссёр: </p>{{filmInput.producer}} 
+    </div>
+    <div>
+        <p>Описание: </p> {{filmInput.description}}
+    </div>
+    <div>
+        <p>Статус: </p> <h5>Проверяется</h5>
+    </div>
+</div>

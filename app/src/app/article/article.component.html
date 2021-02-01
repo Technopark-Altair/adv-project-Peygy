@@ -1,0 +1,14 @@
+<div *ngIf="article">
+    <header>
+        <h2>{{article.header}}</h2>
+    </header>
+    <div class="img">
+        {{article.imgSrc}}
+    </div>
+    <p class="article-text">
+        {{article.description}}
+    </p>
+    <a [routerLink]='["article", article.id]'>
+
+    </a>
+</div>

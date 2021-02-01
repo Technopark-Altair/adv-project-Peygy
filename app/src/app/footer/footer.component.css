@@ -1,0 +1,63 @@
+.footer-main
+{
+    display: block;
+    width: auto;
+    height: 200px;
+    background-color: rgb(70, 70, 70);
+    color: white;
+}
+.footer-1
+{
+    margin: 20px;
+    font-family: 'Sawarabi Gothic', sans-serif;
+    text-align: center;
+    font-size: 1em;
+    color: rgb(201, 201, 201);
+}
+.footer-2
+{
+    display: block;
+}
+.footer-2-1
+{
+    display: block;
+    float: left;
+}
+.footer-2-2
+{
+    display: block;
+    float: right;
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+}
+li
+{
+    display: inline-block;
+    padding: 20px;
+}
+h5
+{
+    font-family: 'Sawarabi Gothic', sans-serif;
+    margin-right: 30px;
+}
+a
+{
+    font-family: 'Sawarabi Gothic', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+#right
+{
+    padding: 0 20px 0 20px;
+    border-right: 2px solid rgb(134, 134, 134);
+}
+a:hover
+{
+    color: rgb(214, 33, 33);
+    font-weight: bolder;
+}

@@ -1,0 +1,24 @@
+<article>
+    <header>
+        <h2>Предложение фильма</h2>
+        <h4>Предложите нам свой фильм,и после проверки мы добавим его на сайт!</h4>
+    </header>  
+    <form>
+        <div style="display: block; ">
+            Название фильма: <input [(ngModel)] = 'film.name' name="name">
+        </div>
+        <div style="display: block; margin-left: 75px;">
+            Режиссёр: <input [(ngModel)] = 'film.producer' name="producer">
+        </div>
+        <div style="display: block; ">
+            Краткое описание:<input style="height: 100px;" [(ngModel)] = 'film.description' name="description">
+        </div>
+        <div style="display: block; margin-left: 47px;">
+            Фильм(файл): <input id="file" type="file" >
+        </div>
+        <div style="text-align: center;">
+            <button id="assept" type="submit" (click)="AddFilmInArray()">Добавить</button>
+        </div>
+    </form>   
+</article>
+

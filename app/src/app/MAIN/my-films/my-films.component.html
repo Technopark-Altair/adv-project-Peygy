@@ -1,0 +1,11 @@
+<div>
+    <app-add-film (addNewFilm)="addingNewFilm($event)"></app-add-film>
+</div>
+<h5>*Перед тем как попасть на сайт, фильм попадёт на проверку адекватности контента</h5>
+<hr>
+<header>
+    <h2>Список добавленных фильмов</h2>
+</header>
+<div *ngFor="let film of films">
+    <app-my-film [filmInput]="film"></app-my-film>
+</div>
