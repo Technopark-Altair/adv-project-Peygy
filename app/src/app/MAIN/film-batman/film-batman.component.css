@@ -174,3 +174,8 @@ video
 {
     width: 900px;
 }
+.vidos
+{
+    border: 1px solid black;
+    border-radius: 4px;
+}
